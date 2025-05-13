@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #002b5c;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            color: #cce0ff;
+        }
+
+        .container {
+            max-width: 800px;
+            background-color: white;
+            margin: 40px auto;
+            padding: 30px 40px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            border-radius: 12px;
+        }
+
+        h2 {
+            color: #002b5c;
+            border-bottom: 2px solid #e0e6ed;
+            padding-bottom: 5px;
+        }
+
+        p, li {
+            font-size: 1em;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        ul.custom-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul.custom-list li::before {
+            content: "⭐"; /* You can change to 🛠️, ✔️, 🔹, ✨, etc. */
+            color: #002b5c;
+            margin-right: 10px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><i>Yadav Sanjip Kumar</i></h1>
+        <p>Graduate Student | ERP Researcher | Technology Enthusiast</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Background</h2>
+            <p>I am currently pursuing my Master's degree at The Kyoto College of Graduate Studies for Informatics. My research focuses on ERP implementation in Nepalese SMEs, addressing technological, cultural, and strategic challenges.</p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul class="custom-list">
+                <li>Web Development</li>
+                <li>ERP Systems</li>
+                <li>C Programming</li>
+                <li>Research Writing</li>
+                <li>Team Leadership</li>
+                <li>Cultural Orientation</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Hobbies</h2>
+            <ul class="custom-list">
+                <li>Exploring Japanese culture</li>
+                <li>Reading about digital transformation</li>
+                <li>Mentoring newcomers in IT</li>
+                <li>Personal coding projects</li>
+                <li>Watching tech documentaries</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
+ 
